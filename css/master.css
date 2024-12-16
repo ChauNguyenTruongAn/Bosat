@@ -1,0 +1,56 @@
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hover-zoom {
+    transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.filter-form {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.filter-form h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.filter-form .form-label {
+    font-weight: 500;
+}
+
+.product-card {
+    transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.product-card h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+

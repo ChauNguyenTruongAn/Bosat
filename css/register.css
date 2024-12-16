@@ -1,0 +1,51 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.form-floating label {
+    color: #6c757d;
+}
+
+.form-floating input:focus+label,
+.form-floating input:not(:placeholder-shown)+label {
+    color: #0d6efd;
+    font-size: 12px;
+    top: -1rem;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #165eab;
+}
+
+.link-info {
+    color: #1877f2;
+}
+
+.link-info:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+<?php
+include("config/config.php");
+include("components/header.php");
+include("components/hero.php");
+include("components/outstanding-products.php");
+include("components/latest-products.php");
+include("components/services.php");
+include("components/rating.php");
+include("components/footer.php");
+?>
